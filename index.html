@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <title>MIDTERM</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            poppins: ['Poppins','sans-serif'],
+          },
+          colors: {
+            'my-purple':'#7200B8',
+            'my-white':'#DFF7F7',
+            'my-blue':'#6D9BB5',
+            'my-pink':'rgba(114,0,184,0.5)',
+            'my-blue-2':'rgba(15,10,238,0.12)'
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    .shadow-custom-1 {box-shadow: 4px 4px 4px 5px #00000040;}
+  </style>
+ </head>
+<body>
+  <div class="w-[1440px] h-[1024px] relative">
+    <div class="absolute top-[46px] left-[40px] font-poppins font-bold text-[36px]">Chief LA</div>
+    <div class="w-[499px] h-[44px] absolute top-[51px] left-[365px] flex gap-[45px] justify-between items-center font-poppins font-bold text-[16px]">
+      <div class="underline">Home</div>
+      <div>About Us</div>
+      <div>Services</div>
+      <div>Contact us</div>
+    </div>
+    <div class="absolute top-[61px] left-[1123px]"><img src="Frame17.svg" alt=""></div>
+    <div class="absolute top-[43px] left-[1176px] w-[60px] h-[60px] rounded-full border-[3px] border-black overflow-hidden"><img src="pic.jpg" alt=""></div>
+    <div class="absolute top-[55px] left-[1263px] font-poppins font-bold text-[24px] text-my-purple">Kunle Ajayi</div>
+    <div class="font-poppins text-[24px] font-bold absolute top-[138px] left-[331px] p-[10px] flex items-center" >Dashboard</div>
+    <button class="w-[226px] h-[50px] rounded-[10px] absolute top-[141px] left-[1174px] border border-my-purple font-poppins text-[20px] font-medium">Reviews & Feedback</button>
+    <button class="w-[233px] h-[96px] rounded-[10px] absolute top-[208px] left-[341px] px-[20px] py-[30px] font-poppins text-[24px] text-my-white font-semibold bg-black">Loans Available </button>
+    <button class="w-[284px] h-[96px] rounded-[10px] absolute top-[208px] left-[614px] px-[20px] py-[30px] font-poppins text-[24px] text-my-white font-semibold bg-black">Repayment Options</button>
+    <button class="w-[318px] h-[96px] rounded-[10px] absolute top-[208px] left-[938px] px-[20px] py-[30px] font-poppins text-[24px] text-my-white font-semibold bg-black">percentage Calculator</button>
+    <button class="w-[345px] h-[321px] rounded-[15px] absolute top-[401px] left-[341px] p-[10px] font-poppins text-[36px] text-white font-bold bg-black shadow-custom-1">REQUEST  LOAN</button>
+    <button class="w-[345px] h-[321px] rounded-[15px] absolute top-[401px] left-[708px] p-[10px] font-poppins text-[36px] text-white font-bold bg-black shadow-custom-1">CHOOSE A <br>REPAYMENT <br> PLAN</button>
+    <button class="w-[412px] h-[96px] rounded-[10px] absolute top-[835px] left-[492px] px-[5px] py-[30px] font-poppins text-[24px] text-white font-bold bg-black shadow-custom-1 border border-my-purple">Loan appication status</button>
+    <div class="w-[254px] h-[783px] absolute top-[148px] left-[41px] rounded-[10px] pt-[58px] pb-[105px] flex flex-col justify-between items-start bg-black">
+        <div class="w-[180px] h-[390px] flex flex-col justify-between items-start pl-[25px] gap-[50px]">
+            <button class="w-[180px] h-[70px] px-[10px] py-[20px] rounded-[10px] font-poppins text-[20px] font-bold text-white bg-my-purple flex justify-between items-center"><img src="home.svg" alt=""><span>Dashboard</span></button>
+            <button class="w-[170px] h-[30px] gap-5 font-poppins text-[20px] font-bold text-white flex  items-center"><img src="creditcard.svg" alt=""><span>Transaction</span></button>
+            <button class="w-[177px] h-[30px] gap-5 font-poppins text-[20px] font-bold text-white flex  items-center"><img src="bell.svg" alt=""><span>Notifications</span></button>
+            <button class="w-[128px] h-[30px] gap-5 font-poppins text-[20px] font-bold text-white flex  items-center"><img src="discourse.svg" alt=""><span>Support</span></button>
+            <button class="w-[129px] h-[30px] gap-5 font-poppins text-[20px] font-bold text-white flex items-center"><img src="cog.svg" alt=""><span>Settings</span></button>
+        </div>
+        <button class="w-[130px] h-[30px] gap-5 pl-[25px] text-5 font-bold text-white flex items-center"><img src="log-in.svg" alt="Log-in"><span>Log out</span></button>
+    </div>
+    <div class="w-[300px] h-[500px] absolute top-[348px] left-[1100px] rounded-[10px] p-[20px] border border-my-blue bg-black px-[28px] pt-[19px] flex flex-col justify-start items-center gap-[10px] shadow-custom-1">
+        <div class="w-[191px] h-[56px] text-[24px] p-[10px] font-poppins text-white font-bold flex justify-center items-center">Latest Update</div>
+        <div class="w-[244px] h-[81px] text-white text-sm font-poppins font-regular flex flex-col items-center gap-[10px]">
+            <div>Lorem ipsum dolor sit amet consectetur. Iaculis diam pretium sem porttitor nibh.</div>
+            <div>Lorem ipsum dolor sit amet consectetur. Iaculis diam pretium sem porttitor nibh.</div>
+            <div>Lorem ipsum dolor sit amet consectetur. Iaculis diam pretium sem porttitor nibh. <br><br></div>
+            <div>Lorem ipsum dolor sit amet consectetur. Iaculis diam pretium sem porttitor nibh. <br><br></div>
+        </div>
+    </div>
+    <div class="w-[120p h-[110px] absolute top-[861px] left-[1280px] flex flex-col justify-between items-center ">
+        <button class="w-[120px] h-[50px] font-poppins text-[20px] text-my-pink font-bold flex justify-center items-center">Chat Now</button>
+        <img src="comment-dots.svg" alt="">
+    </div>
+    <div class="w-[151px] h-[988.17px] bg-my-blue-2 absolute top-[870.22px] left-[465.41px] rotate-[-140.66deg] origin-top-left -z-50"></div>
+    <div class="w-[151px] h-[717.7px] bg-my-blue-2 absolute top-[364.89px] left-[310.43px] rotate-[-37.09deg] origin-top-left -z-50 "></div>
+    <div class="w-[151px] h-[717.7px] bg-my-blue-2 absolute top-[289.59px] left-[1338.84px] rotate-[52.37deg] origin-top-left -z-50 "></div>
+  </div>
+</body>
+</html>
